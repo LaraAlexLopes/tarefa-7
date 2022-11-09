@@ -1,0 +1,39 @@
+	body{
+		background-color: black;
+		color: white;
+	}
+	label{
+		display:block ;
+	} 
+	/*O block considera cada input como um bloco único*/
+	.destaque{
+		color: limegreen;
+		font-weight: bold;
+			
+	}
+	.destaque:hover{
+		color: red;
+	}
+	[type='password']{
+		background-color: red;
+	}
+	[type='button']{
+		background-color: blue;
+	}
+
+	table{
+		border-style:groove ;
+		border-width: 10px;
+		border-color: limegreen;
+	}
+	td,tr,th{
+		border-style:solid ;
+		border-width: 0.05px;
+		border-color: blue;
+	}
+	.tabela tr:nth-child(even){ /* tem que criar uma classe e nessa clase aplicar na tr*/
+		background-color: red;
+	}
+	.tabela tr:nth-child(odd){ /* tem que criar uma classe e nessa clase aplicar na tr*/
+		background-color: green;
+	}
